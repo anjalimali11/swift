@@ -1,0 +1,107 @@
+1.registration form
+2.login form
+3.product page
+      -user see all products
+      -filters [product category filter ,price]
+4)product
+5)
+6)
+7)about us
+8)contact page
+
+what is bootstrap ?
+===================
+bootstrap is a css framework [frontend]
+bootstrap is complied css file which contains
+pre defined classess that can be used on
+html elements to make good looking UI.
+
+bootstrap provides grid structure.
+browser is divided into rows and columns.
+intersection of rows and columns from grid structure.
+
+
+-------|-----------|-----------|-----------|--------|
+-------|-----------|-----------|-----------|--------|
+-------|-----------|-----------|-----------|--------|
+
+with the help of grid structure HTML elements
+can be placed properly at exact location on the 
+browser.
+
+bootstrap provides 12 columns grid structure.
+means entire browser screen is divides into 12
+columns.
+
+linking bootstrap in project.
+=================================
+1)online -CDN
+2)offline
+
+
+online
+1)css
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+
+2)js
+<scripts>
+
+
+breakpoints:
+=============
+4 products a row =>layout 1
+1 product in row =>layout 2
+
+responding web page:
+    layout or structure of web page changes as per the device
+    screen width.
+
+breakpoint
+==========
+Screen width in pixel at which layout of web page    
+
+
+bootstrap available breakepoints
+========================================
+Breakpoint	   Class infix	  Dimensions     range
+------------------------------------------------------
+Extra small	     None	           <576px      0 px to <576 px
+Small	            sm	            ≥576px      >=576 and <768
+Medium	      md	            ≥768px      >=768 and <992
+Large	            lg	            ≥992px      >=992 and
+Extra large	      xl	            ≥1200px
+Extra extra       xxl	          ≥1400px
+large	
+
+
+container
+=============
+basic layout of the 
+types of selector
+1)tagsselector
+      h1{
+
+      }
+
+2)id selector
+
+3)class selector
+  .classname{
+
+  }
+
+types of containers
+===================
+1).container  2).container-breakepoint  3).container
+
+grid
+====
+grid is intersection of rows and columns.
+rows =>horizontal
+columns =>vertical
+
+bootstrap has a 12 column grid structure.means entire web page is divided into 12 equi-width
+column
+
+container
+
